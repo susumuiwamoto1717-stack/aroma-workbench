@@ -183,6 +183,12 @@ export default function PatternEditorPage({
             Q{activeQ}をリセット
           </button>
           <Link
+            href={`/patterns/${id}/overview`}
+            className="px-4 py-2 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-700"
+          >
+            マインドマップ
+          </Link>
+          <Link
             href={`/simulator/${id}`}
             className="px-4 py-2 bg-emerald-600 text-white text-sm rounded-lg hover:bg-emerald-700"
           >

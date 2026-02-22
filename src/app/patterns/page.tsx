@@ -168,6 +168,12 @@ export default function PatternsPage() {
                     >
                       編集
                     </Link>
+                    <Link
+                      href={`/patterns/${pattern.id}/overview`}
+                      className="px-4 py-2 bg-indigo-600 text-white text-sm rounded-lg hover:bg-indigo-700 transition"
+                    >
+                      マップ
+                    </Link>
                     {progress > 0 && (
                       <Link
                         href={`/simulator/${pattern.id}`}
